@@ -1,0 +1,58 @@
+:root{
+    --main-border:1px solid green;
+}
+
+.container{
+    border: var(--main-border);
+}
+
+p::first-line{
+    color: yellowgreen;
+}
+
+p::first-letter{
+    font-size: 48px;
+}
+
+p::before{
+    content: 'This is paragraph';
+}
+
+li::before{
+    display: inline-block;
+    content: '>';
+}
+
+li::after{
+    display: inline-block;
+    content: '>';
+}
+
+.navigation{
+    overflow: hidden;
+    background-color: whitesmoke;
+}
+.navigation a{
+    float: left;
+    color: #000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navigation a:hover{
+    color:black;
+    background-color: lightgray;
+    padding: ;
+}
+
+a+a::before{
+    content: '|';
+    margin: 50px;
+}
+
+p::selection{
+    background-color: yellow;
+    color: blue;
+}

@@ -1,0 +1,154 @@
+
+.navP1{
+    position: sticky;
+    top: 0px;
+    background-color: whitesmoke;
+    overflow: hidden;
+}
+
+.navP1 a{
+    float: left;
+    color: #4089f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.navP1 a:hover{
+    color: darkred;
+    background-color: #ddd;
+}
+
+.navP1 a.active{
+    background-color: cornflowerblue;
+    color: #fff22a;
+    font-weight: bold;
+}
+
+
+
+
+.container{
+    position: relative;
+
+    width: 500px;
+    height: 500px;
+
+    border: 1px solid red;
+    margin: 100px auto;
+}
+
+.rectangular{
+    position: absolute;
+
+    height: 100px;
+    width: 100px;
+    border: 1px solid red;
+}
+
+.redBack{
+    z-index: 10;
+    background-color: red;
+
+    left: 50px;
+}
+.blackBack{
+    z-index: -2;
+    background-color: black;
+    top: 50%;
+    right: 0px;
+    transform: translateY(-50%);
+}
+.yellowBack{
+    z-index: -1;
+    background-color: yellowgreen;
+    bottom: 0px;
+    left: 200px;
+    transform: translateX(-50%);
+}
+
+.circle{
+    position: absolute;
+
+    height: 100px;
+    width: 100px;
+
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.cRed{
+    background-color: red;
+    top:25px;
+    left:200px;
+}
+.cYellow{
+    background-color: yellow;
+    top:150px;
+    left:200px;
+}
+.cGreen{
+    background-color: green;
+    top:275px;
+    left:200px;
+}
+
+.smile{
+    border-radius: 50%;
+    background-color: yellow;
+}
+
+.eye1{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border:1px solid black;
+    z-index: auto;
+    top:20px;
+    left:20px;
+}
+.eye2{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border:1px solid black;
+    z-index: auto;
+    top:20px;
+    left:60px;
+}
+
+.mouse{
+    border: none;
+    width: 50px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: black;
+
+    top:60px;
+    left:25px;
+}
+
+.mouse3{
+    border: none;
+    width: 25px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: darkred;
+
+    top:50px;
+    left:25px;
+    transform: rotate(20deg);
+}
+
+.mouse2{
+    border: none;
+    width: 50px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: yellow;
+
+    top:50px;
+    left:25px;
+}
+
